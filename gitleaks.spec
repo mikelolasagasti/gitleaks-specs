@@ -36,8 +36,6 @@ BuildRequires:  git-core
 %go_generate_buildrequires
 
 %build
-#export LDFLAGS="-X =github.com/zricethezav/gitleaks/v8/cmd.Version=%{version}"
-
 %gobuild -o %{gobuilddir}/bin/gitleaks %{goipath}
 %{gobuilddir}/bin/%{name} completion bash > %{name}.bash
 %{gobuilddir}/bin/%{name} completion fish > %{name}.fish
