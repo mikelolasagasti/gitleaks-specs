@@ -38,8 +38,8 @@ Source0:        %{gosource}
 
 %if %{with check}
 %check
-# gitleak's fork has some changes that break tests
-# notified developer as project doesn't accept issues
+# gitleak's fork of gitdiff has some changes that break tests.
+# Notified developer as project doesn't accept issues, waiting feedback.
 #%%gocheck
 %endif
 
