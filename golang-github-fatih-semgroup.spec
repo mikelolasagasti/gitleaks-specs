@@ -18,8 +18,7 @@ Name:           %{goname}
 Release:        %autorelease
 Summary:        Like errgroup/waitgroup, but only runs a maximum of tasks at any time
 
-# Upstream license specification: BSD-3-Clause
-License:        BSD
+License:        BSD-3-Clause
 URL:            %{gourl}
 Source0:        %{gosource}
 
